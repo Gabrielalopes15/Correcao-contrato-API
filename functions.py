@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-token = '6e8f180d-acbb-47a6-a485-b79623b77f89'
+token = 'seu token'
 headers = {
     "Authorization": f"Bearer {token}",
     "Content-Type": "application/json"  
